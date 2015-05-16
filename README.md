@@ -11,7 +11,7 @@ A pure javascript (partial) implementation of libhdate
 
 ```js
 // import this module
-var Hdate = require("../index");
+var Hdate = require("libhdate");
 
 // create a new Hdate object
 var h = new Hdate();
