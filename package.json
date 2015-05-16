@@ -1,11 +1,11 @@
 {
   "name": "libhdate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A pure Javascript implementation of libhdate",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node ./test/test.js",
-    "prepublish": "./node_modules/.bin/tsc index.ts --module commonjs"
+    "prepublish": "./node_modules/.bin/tsc src/index.ts --outDir lib --module commonjs"
   },
   "repository": {
     "type": "git",
