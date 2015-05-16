@@ -6,7 +6,7 @@ var Hdate = require("../index");
 var h = new Hdate();
 
 // Set the Date
-h.set_gdate(16, 5, 2015);
+h.setGdate(16, 5, 2015);
 
 // Printout
 console.log(h);

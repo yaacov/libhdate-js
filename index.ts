@@ -23,6 +23,9 @@ import HdateSunTime = require("./libhdate/sun_time");
 import HdateStrings = require("./libhdate/strings");
 
 class Export extends Hdate.Hdate {
+	public setGdate = this.set_gdate;
+	public setHdate = this.set_hdate;
+	public setJd = this.set_jd;
 	public getHolyday = HdateHolyday.hdate_get_holyday;
 	public getOmerDay = HdateHolyday.hdate_get_omer_day;
 	public getParasha = HdateParasha.hdate_get_parasha;

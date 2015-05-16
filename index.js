@@ -30,6 +30,9 @@ var Export = (function (_super) {
     __extends(Export, _super);
     function Export() {
         _super.apply(this, arguments);
+        this.setGdate = this.set_gdate;
+        this.setHdate = this.set_hdate;
+        this.setJd = this.set_jd;
         this.getHolyday = HdateHolyday.hdate_get_holyday;
         this.getOmerDay = HdateHolyday.hdate_get_omer_day;
         this.getParasha = HdateParasha.hdate_get_parasha;
