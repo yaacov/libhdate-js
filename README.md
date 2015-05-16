@@ -28,8 +28,8 @@ var omer = h.getOmerDay(h);
 console.log(h.getHolydayName(holyday));
 console.log(omer);
 
-// get parasha
-var reading = h.getParasha(h);
+// get parasha for next shabbat
+var reading = h.getShabbatsParasha(h);
 console.log(h.getParashaName(reading));
 
 // get times

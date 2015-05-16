@@ -6,7 +6,7 @@ var Hdate = require("../lib/index");
 var h = new Hdate();
 
 // Set the Date
-h.setGdate(16, 5, 2015);
+h.setGdate(14, 5, 2015);
 
 // Printout
 console.log(h);
@@ -17,8 +17,8 @@ var omer = h.getOmerDay(h);
 console.log(h.getHolydayName(holyday));
 console.log(omer);
 
-// get parasha
-var reading = h.getParasha(h);
+// get parasha for next shabbat
+var reading = h.getShabbatsParasha(h);
 console.log(h.getParashaName(reading));
 
 // get times

@@ -19,6 +19,25 @@
 import Hdate = require("./julian");
 
 /**
+  Return number of hebrew parasha.on next shabbat
+  @param h The hdate_struct of the date to use.
+  @param $diaspora if True give $diaspora $readings
+  @return the name of parasha 1. Bereshit etc..
+  (55 trow 61 are joined strings e.g. Vayakhel Pekudei)
+*/
+export function
+hdate_get_shabbats_parasha (h:Hdate.Hdate, isDiaspora:boolean = false):number
+{
+  var next_shabbat:Hdate.Hdate = new Hdate.Hdate();
+  
+  /* set the julian for next shabbat */
+  next_shabbat.set_jd(h.hd_jd + 7 - h.hd_dw);
+  
+  /* return the parasha for next_shabbat */
+  return hdate_get_parasha(next_shabbat, isDiaspora);
+}
+
+/**
  Return number of hebrew parasha.
  
  Yaacov Zamir 2003-2005, reading tables by Zvi Har'El

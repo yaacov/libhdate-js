@@ -29,6 +29,7 @@ class Export extends Hdate.Hdate {
 	public getHolyday = HdateHolyday.hdate_get_holyday;
 	public getOmerDay = HdateHolyday.hdate_get_omer_day;
 	public getParasha = HdateParasha.hdate_get_parasha;
+	public getShabbatsParasha = HdateParasha.hdate_get_shabbats_parasha;
 	public getSunTime = HdateSunTime.hdate_get_utc_sun_time_deg;
 	public getSunTimeFull = HdateSunTime.hdate_get_utc_sun_time_full;
 	public getHolydayName = HdateStrings.hdate_get_holyday_name;
