@@ -1,5 +1,5 @@
 # libhdate-js
-A pure java script (partial) implementation of libhdate
+A pure javascript (partial) implementation of libhdate
 
 [![NPM Version](https://img.shields.io/npm/v/gm.svg?style=flat)](https://www.npmjs.org/package/libhdate)
 
