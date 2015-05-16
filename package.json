@@ -1,6 +1,6 @@
 {
   "name": "libhdate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A pure Javascript implementation of libhdate",
   "main": "index.js",
   "scripts": {
