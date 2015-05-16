@@ -1,6 +1,6 @@
 // example
 // import this module
-var Hdate = require("../index");
+var Hdate = require("../lib/index");
 
 // create a new Hdate object
 var h = new Hdate();

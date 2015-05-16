@@ -16,11 +16,11 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import Hdate = require("./libhdate/julian");
-import HdateHolyday = require("./libhdate/holyday");
-import HdateParasha = require("./libhdate/parasha");
-import HdateSunTime = require("./libhdate/sun_time");
-import HdateStrings = require("./libhdate/strings");
+import Hdate = require("./julian");
+import HdateHolyday = require("./holyday");
+import HdateParasha = require("./parasha");
+import HdateSunTime = require("./sun_time");
+import HdateStrings = require("./strings");
 
 class Export extends Hdate.Hdate {
 	public setGdate = this.set_gdate;
