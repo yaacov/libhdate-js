@@ -1,0 +1,31 @@
+{
+  "name": "libhdate",
+  "version": "0.0.1",
+  "description": "A pure Javascript implementation of libhdate",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js",
+    "prepublish": "./node_modules/.bin/tsc index.ts --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaacov/libhdate-js.git"
+  },
+  "keywords": [
+    "libhdate",
+    "hdate",
+    "hcal",
+    "date",
+    "calendar",
+    "hebrew",
+    "jewish"
+  ],
+  "author": "Yaacov Zamir <kobi.zamir@gmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/yaacov/libhdate-js/issues"
+  },
+  "devDependencies": {
+    "typescript": "^1.5.0-beta"
+  }
+}
