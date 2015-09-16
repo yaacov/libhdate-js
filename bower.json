@@ -1,0 +1,33 @@
+{
+  "name": "libhdate-js",
+  "version": "0.3.1",
+  "homepage": "https://github.com/yaacov/libhdate-js",
+  "description": "A pure javascript (partial) implementation of libhdate",
+  "main": "lib/index.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "libhdate",
+    "hdate",
+    "hcal",
+    "date",
+    "calendar",
+    "hebrew",
+    "jewish"
+  ],
+  "authors": [
+    "Yaacov Zamir <kobi.zamir@gmail.com>",
+  ],
+  "devDependencies": {
+    "typescript": "^1.5.0-beta"
+  },
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
